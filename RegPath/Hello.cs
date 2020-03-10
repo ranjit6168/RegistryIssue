@@ -6,7 +6,7 @@ namespace HelloCisco
 {
     [Cmdlet(VerbsCommon.Get, "Path")]
     [OutputType(typeof(String))]
-    public class GetHello : Cmdlet
+    public class GetPath : Cmdlet
     {
 
         [Parameter(Position = 1, ValueFromPipelineByPropertyName = true)]
